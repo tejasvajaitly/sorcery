@@ -11,7 +11,7 @@ import * as Y from 'yjs'
 const ydoc = new Y.Doc()
 
 const provider = new HocuspocusProvider({
-    url: "ws://localhost:3001/myDocument",
+    url: "ws://3.145.19.135/myDocument",
     name: "example-document",
     document: ydoc,
 })
